@@ -22,3 +22,5 @@
   
 6.  Create a pipeline for java project to build using Maven.
      maven
+7. Use this for pipeline:
+    https://github.com/gscprojectdemo/maven-spring.git
