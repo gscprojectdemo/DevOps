@@ -1,13 +1,16 @@
 1. Connect ec2 innstance:
   ex: 
-    ssh -i "mumbai.pem" ubuntu@ec2-13-235-73-46.ap-south-1.compute.amazonaws.com
+    ssh -i "mumbai.pem" ec2-user@ec2-13-232-73-169.ap-south-1.compute.amazonaws.com
 
 2. Steps to install jenkins with docker:
-apt update && apt install docker.io 
-systemctl status docker
-docker run -itd -p 8080:8080 -p 50000:50000 --name=jen jenkins/jenkins:lts
-docker ps 
-docker logs jen
+    sudo yum update -y
+    sudo yum install -y docker
+    sudo service docker start
+    systemctl status docker
+3. start jenkinns docker container
+  docker run -itd -p 8080:8080 -p 50000:50000 --name=jen jenkins/jenkins:lts
+  docker ps 
+  docker logs jen
 
 3. Enable security group with port 8080 in aws console.
 4. accessjenkins url using public Ip and port : 8080
