@@ -24,3 +24,7 @@
      maven
 7. Use this for pipeline:
     https://github.com/gscprojectdemo/maven-spring.git
+
+8. java installation comannd in jenkin s agent :
+  sudo dnf install java-21-amazon-corretto
+
