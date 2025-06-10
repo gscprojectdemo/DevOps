@@ -1,1 +1,11 @@
+Steps to install jenkins with docker:
+
+apt update && apt install docker.io 
+systemctl status docker
+docker run -itd -p 8080:8080 -p 50000:50000 --name=jen jenkins/jenkins:lts
+docker ps 
+docker logs jen
+
+Enable security group with port 8080 in aws console.
+
 
