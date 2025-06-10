@@ -43,3 +43,6 @@
           sudo dnf install java-21-amazon-corretto
        create a dir:
           /home/ec2-user/jenkins-agent
+
+10. take a jenkins backup :
+    /var/jenkins_home
