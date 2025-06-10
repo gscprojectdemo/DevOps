@@ -20,5 +20,5 @@
 5. create a pipeline with shell script:
     echo "Hello world"
   
-
-
+6.  Create a pipeline for java project to build using Maven.
+     maven
