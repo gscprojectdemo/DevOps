@@ -28,3 +28,18 @@
 8. java installation comannd in jenkin s agent :
   sudo dnf install java-21-amazon-corretto
 
+9. agent configuration:
+
+    1. select node option from manage-jenkinns 
+      file details like:
+       remote dir :  /home/ec2-user/jenkins-agent
+       hostname
+       labels
+       executors
+       private key cert
+
+    2. agent node side:
+       install jdk:
+          sudo dnf install java-21-amazon-corretto
+       create a dir:
+          /home/ec2-user/jenkins-agent
