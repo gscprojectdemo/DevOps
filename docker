@@ -1,0 +1,20 @@
+    docker run -itd ubuntu
+
+   22  docker rename loving_wu a1
+
+   25  docker run -it ubuntu ls
+   26  docker run -it ubuntu ls -lrt
+   28  docker ps -a
+   30  docker run -it ubuntu /bin/sh
+   33  docker exec -it a1 bash 
+   34  docker exec -it a1 ./a.sh
+   35  docker exec -it a1 sh a.sh
+   37  docker commit --help
+   38  docker commit a1 custom:latest
+   42  docker images
+   43  docker run -it custom sh a.sh
+   44  docker images
+   45  docker tag custom devopsjuly22017/custrom
+   47  docker login
+ 
+   49  docker push devopsjuly22017/custrom
