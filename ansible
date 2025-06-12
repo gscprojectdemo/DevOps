@@ -1,0 +1,3 @@
+==> ansible install command in amazon linux
+
+    sudo yum update && yum install ansible
